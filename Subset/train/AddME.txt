@@ -1,0 +1,7 @@
+This is the folder in which subsetted patients from the various sets should be concatenanted to. There should be a bash code specifically meant to move files from sets0-9 to this 'Subset' file when the 'set' folders and the 'Subset' folder are in the main repo directory. Best to run script as:
+
+user$ bash combineSets.sh
+
+(instead of) user$ sh combineSets.sh 
+
+Bash script header set as !/bin/bash, indicating Bash setup location on the creator's CPU. 
